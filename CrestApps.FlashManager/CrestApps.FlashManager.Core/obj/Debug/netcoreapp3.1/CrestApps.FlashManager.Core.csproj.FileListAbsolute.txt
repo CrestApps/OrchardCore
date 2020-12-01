@@ -1,0 +1,4 @@
+C:\Code\CrestApps.GitHub\CrestApps.FlashManager\CrestApps.FlashManager.Core\bin\Debug\netcoreapp3.1\CrestApps.FlashManager.Core.deps.json
+C:\Code\CrestApps.GitHub\CrestApps.FlashManager\CrestApps.FlashManager.Core\bin\Debug\netcoreapp3.1\CrestApps.FlashManager.Core.dll
+C:\Code\CrestApps.GitHub\CrestApps.FlashManager\CrestApps.FlashManager.Core\obj\Debug\netcoreapp3.1\CrestApps.FlashManager.Core.AssemblyInfoInputs.cache
+C:\Code\CrestApps.GitHub\CrestApps.FlashManager\CrestApps.FlashManager.Core\obj\Debug\netcoreapp3.1\CrestApps.FlashManager.Core.AssemblyInfo.cs

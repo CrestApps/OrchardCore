@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="3.1.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Core\CrestApps.Core.Data.Abstraction\CrestApps.Core.Data.Abstraction.csproj" />
+    <ProjectReference Include="..\..\Core\CrestApps.Core.Support\CrestApps.Core.Support.csproj" />
+    <ProjectReference Include="..\CrestApps.Pixulia.RealEstate.Data.Models\CrestApps.Pixulia.RealEstate.Data.Models.csproj" />
+  </ItemGroup>
+
+</Project>

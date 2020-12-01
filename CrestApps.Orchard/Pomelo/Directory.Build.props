@@ -1,0 +1,42 @@
+<Project>
+  <Import Project="Versions.props" />
+  <Import Project="Development.props" Condition="Exists('Development.props')" />
+
+  <PropertyGroup>
+    <StrongNameKeyId>Pomelo.EntityFrameworkCore.MySql</StrongNameKeyId>
+    <PackageTags>pomelo;mysql;mariadb;Entity Framework Core;entity-framework-core;ef;efcore;ef core;orm;sql</PackageTags>
+    <Product>Pomelo.EntityFrameworkCore.MySql</Product>
+    <Authors>Laurents Meyer, Caleb Lloyd, Yuko Zheng</Authors>
+    <Company>Pomelo Foundation</Company>
+    <!-- <Copyright></Copyright> -->
+    <PackageIconUrl>https://avatars3.githubusercontent.com/u/19828814</PackageIconUrl>
+    <PackageIcon>icon.png</PackageIcon>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <LangVersion>8.0</LangVersion>
+    <DebugType>portable</DebugType>
+    <SuppressNETCoreSdkPreviewMessage>true</SuppressNETCoreSdkPreviewMessage>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/PomeloFoundation/Pomelo.EntityFrameworkCore.MySql</PackageProjectUrl>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/PomeloFoundation/Pomelo.EntityFrameworkCore.MySql.git</RepositoryUrl>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <DefaultNetCoreTargetFramework>net5.0</DefaultNetCoreTargetFramework>
+    <DefaultNetCoreLegacyTargetFramework>netcoreapp5.0</DefaultNetCoreLegacyTargetFramework>
+    <DefaultNetStandardTargetFramework>netstandard2.1</DefaultNetStandardTargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>$(MSBuildThisFileDirectory)Pomelo.snk</AssemblyOriginatorKeyFile>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)icon.png" Pack="true" PackagePath=""/>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="**\*.rd.xml" />
+  </ItemGroup>
+</Project>

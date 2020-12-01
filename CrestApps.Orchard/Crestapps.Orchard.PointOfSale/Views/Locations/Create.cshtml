@@ -1,0 +1,17 @@
+﻿<div class="card">
+    @{ 
+        var t = Model;
+    }
+    <div class="card-header">
+        @T["Create a Location"]
+    </div>
+    <div class="card-body">
+
+        <form method="post" asp-controller="Locations" asp-action="Create" asp-area="@PosConstants.ModuleName">
+        @Html.AntiForgeryToken()
+        @await DisplayAsync(Model.Content)
+
+            <button type="submit" class="btn btn-primary offset-sm-2">Save</button>
+        </form>
+    </div>
+</div>

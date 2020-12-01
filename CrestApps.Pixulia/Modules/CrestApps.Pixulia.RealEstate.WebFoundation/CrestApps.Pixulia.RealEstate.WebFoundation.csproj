@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Core\CrestApps.Core.Support\CrestApps.Core.Support.csproj" />
+    <ProjectReference Include="..\..\Core\CrestApps.Core.WebFoundation\CrestApps.Core.WebFoundation.csproj" />
+    <ProjectReference Include="..\CrestApps.Pixulia.RealEstate.Data.Models\CrestApps.Pixulia.RealEstate.Data.Models.csproj" />
+    <ProjectReference Include="..\CrestApps.Pixulia.RealEstate.Service\CrestApps.Pixulia.RealEstate.Service.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Implementations\" />
+  </ItemGroup>
+
+</Project>

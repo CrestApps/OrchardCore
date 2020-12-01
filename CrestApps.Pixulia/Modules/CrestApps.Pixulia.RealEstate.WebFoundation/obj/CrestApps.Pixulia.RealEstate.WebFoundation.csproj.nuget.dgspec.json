@@ -1,0 +1,486 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Code\\CrestApps.GitHub\\CrestApps.Pixulia\\Modules\\CrestApps.Pixulia.RealEstate.WebFoundation\\CrestApps.Pixulia.RealEstate.WebFoundation.csproj": {}
+  },
+  "projects": {
+    "C:\\Code\\CrestApps.GitHub\\CrestApps.Pixulia\\Core\\CrestApps.Core.Data.Abstraction\\CrestApps.Core.Data.Abstraction.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Code\\CrestApps.GitHub\\CrestApps.Pixulia\\Core\\CrestApps.Core.Data.Abstraction\\CrestApps.Core.Data.Abstraction.csproj",
+        "projectName": "CrestApps.Core.Data.Abstraction",
+        "projectPath": "C:\\Code\\CrestApps.GitHub\\CrestApps.Pixulia\\Core\\CrestApps.Core.Data.Abstraction\\CrestApps.Core.Data.Abstraction.csproj",
+        "packagesPath": "C:\\Users\\malhayek\\.nuget\\packages\\",
+        "outputPath": "C:\\Code\\CrestApps.GitHub\\CrestApps.Pixulia\\Core\\CrestApps.Core.Data.Abstraction\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Code\\CrestApps.GitHub\\OrchardCore\\NuGet.Config",
+          "C:\\Users\\malhayek\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Code\\CrestApps.GitHub\\CrestApps.Pixulia\\Core\\CrestApps.Core.Foundation\\CrestApps.Core.Foundation.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Code\\CrestApps.GitHub\\CrestApps.Pixulia\\Core\\CrestApps.Core.Foundation\\CrestApps.Core.Foundation.csproj",
+        "projectName": "CrestApps.Core.Foundation",
+        "projectPath": "C:\\Code\\CrestApps.GitHub\\CrestApps.Pixulia\\Core\\CrestApps.Core.Foundation\\CrestApps.Core.Foundation.csproj",
+        "packagesPath": "C:\\Users\\malhayek\\.nuget\\packages\\",
+        "outputPath": "C:\\Code\\CrestApps.GitHub\\CrestApps.Pixulia\\Core\\CrestApps.Core.Foundation\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Code\\CrestApps.GitHub\\OrchardCore\\NuGet.Config",
+          "C:\\Users\\malhayek\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Code\\CrestApps.GitHub\\CrestApps.Pixulia\\Core\\CrestApps.Core.Store\\CrestApps.Core.Store.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Code\\CrestApps.GitHub\\CrestApps.Pixulia\\Core\\CrestApps.Core.Store\\CrestApps.Core.Store.csproj",
+        "projectName": "CrestApps.Core.Store",
+        "projectPath": "C:\\Code\\CrestApps.GitHub\\CrestApps.Pixulia\\Core\\CrestApps.Core.Store\\CrestApps.Core.Store.csproj",
+        "packagesPath": "C:\\Users\\malhayek\\.nuget\\packages\\",
+        "outputPath": "C:\\Code\\CrestApps.GitHub\\CrestApps.Pixulia\\Core\\CrestApps.Core.Store\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Code\\CrestApps.GitHub\\OrchardCore\\NuGet.Config",
+          "C:\\Users\\malhayek\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Code\\CrestApps.GitHub\\CrestApps.Pixulia\\Core\\CrestApps.Core.Data.Abstraction\\CrestApps.Core.Data.Abstraction.csproj": {
+                "projectPath": "C:\\Code\\CrestApps.GitHub\\CrestApps.Pixulia\\Core\\CrestApps.Core.Data.Abstraction\\CrestApps.Core.Data.Abstraction.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Code\\CrestApps.GitHub\\CrestApps.Pixulia\\Core\\CrestApps.Core.Support\\CrestApps.Core.Support.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Code\\CrestApps.GitHub\\CrestApps.Pixulia\\Core\\CrestApps.Core.Support\\CrestApps.Core.Support.csproj",
+        "projectName": "CrestApps.Core.Support",
+        "projectPath": "C:\\Code\\CrestApps.GitHub\\CrestApps.Pixulia\\Core\\CrestApps.Core.Support\\CrestApps.Core.Support.csproj",
+        "packagesPath": "C:\\Users\\malhayek\\.nuget\\packages\\",
+        "outputPath": "C:\\Code\\CrestApps.GitHub\\CrestApps.Pixulia\\Core\\CrestApps.Core.Support\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Code\\CrestApps.GitHub\\OrchardCore\\NuGet.Config",
+          "C:\\Users\\malhayek\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Code\\CrestApps.GitHub\\CrestApps.Pixulia\\Core\\CrestApps.Core.WebFoundation\\CrestApps.Core.WebFoundation.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Code\\CrestApps.GitHub\\CrestApps.Pixulia\\Core\\CrestApps.Core.WebFoundation\\CrestApps.Core.WebFoundation.csproj",
+        "projectName": "CrestApps.Core.WebFoundation",
+        "projectPath": "C:\\Code\\CrestApps.GitHub\\CrestApps.Pixulia\\Core\\CrestApps.Core.WebFoundation\\CrestApps.Core.WebFoundation.csproj",
+        "packagesPath": "C:\\Users\\malhayek\\.nuget\\packages\\",
+        "outputPath": "C:\\Code\\CrestApps.GitHub\\CrestApps.Pixulia\\Core\\CrestApps.Core.WebFoundation\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Code\\CrestApps.GitHub\\OrchardCore\\NuGet.Config",
+          "C:\\Users\\malhayek\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Code\\CrestApps.GitHub\\CrestApps.Pixulia\\Core\\CrestApps.Core.Foundation\\CrestApps.Core.Foundation.csproj": {
+                "projectPath": "C:\\Code\\CrestApps.GitHub\\CrestApps.Pixulia\\Core\\CrestApps.Core.Foundation\\CrestApps.Core.Foundation.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Code\\CrestApps.GitHub\\CrestApps.Pixulia\\Modules\\CrestApps.Pixulia.RealEstate.Data.Models\\CrestApps.Pixulia.RealEstate.Data.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Code\\CrestApps.GitHub\\CrestApps.Pixulia\\Modules\\CrestApps.Pixulia.RealEstate.Data.Models\\CrestApps.Pixulia.RealEstate.Data.Models.csproj",
+        "projectName": "CrestApps.Pixulia.RealEstate.Data.Models",
+        "projectPath": "C:\\Code\\CrestApps.GitHub\\CrestApps.Pixulia\\Modules\\CrestApps.Pixulia.RealEstate.Data.Models\\CrestApps.Pixulia.RealEstate.Data.Models.csproj",
+        "packagesPath": "C:\\Users\\malhayek\\.nuget\\packages\\",
+        "outputPath": "C:\\Code\\CrestApps.GitHub\\CrestApps.Pixulia\\Modules\\CrestApps.Pixulia.RealEstate.Data.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Code\\CrestApps.GitHub\\OrchardCore\\NuGet.Config",
+          "C:\\Users\\malhayek\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Code\\CrestApps.GitHub\\CrestApps.Pixulia\\Core\\CrestApps.Core.Data.Abstraction\\CrestApps.Core.Data.Abstraction.csproj": {
+                "projectPath": "C:\\Code\\CrestApps.GitHub\\CrestApps.Pixulia\\Core\\CrestApps.Core.Data.Abstraction\\CrestApps.Core.Data.Abstraction.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Code\\CrestApps.GitHub\\CrestApps.Pixulia\\Modules\\CrestApps.Pixulia.RealEstate.Service\\CrestApps.Pixulia.RealEstate.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Code\\CrestApps.GitHub\\CrestApps.Pixulia\\Modules\\CrestApps.Pixulia.RealEstate.Service\\CrestApps.Pixulia.RealEstate.Service.csproj",
+        "projectName": "CrestApps.Pixulia.RealEstate.Service",
+        "projectPath": "C:\\Code\\CrestApps.GitHub\\CrestApps.Pixulia\\Modules\\CrestApps.Pixulia.RealEstate.Service\\CrestApps.Pixulia.RealEstate.Service.csproj",
+        "packagesPath": "C:\\Users\\malhayek\\.nuget\\packages\\",
+        "outputPath": "C:\\Code\\CrestApps.GitHub\\CrestApps.Pixulia\\Modules\\CrestApps.Pixulia.RealEstate.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Code\\CrestApps.GitHub\\OrchardCore\\NuGet.Config",
+          "C:\\Users\\malhayek\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Code\\CrestApps.GitHub\\CrestApps.Pixulia\\Core\\CrestApps.Core.Store\\CrestApps.Core.Store.csproj": {
+                "projectPath": "C:\\Code\\CrestApps.GitHub\\CrestApps.Pixulia\\Core\\CrestApps.Core.Store\\CrestApps.Core.Store.csproj"
+              },
+              "C:\\Code\\CrestApps.GitHub\\CrestApps.Pixulia\\Modules\\CrestApps.Pixulia.RealEstate.Data.Models\\CrestApps.Pixulia.RealEstate.Data.Models.csproj": {
+                "projectPath": "C:\\Code\\CrestApps.GitHub\\CrestApps.Pixulia\\Modules\\CrestApps.Pixulia.RealEstate.Data.Models\\CrestApps.Pixulia.RealEstate.Data.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Code\\CrestApps.GitHub\\CrestApps.Pixulia\\Modules\\CrestApps.Pixulia.RealEstate.WebFoundation\\CrestApps.Pixulia.RealEstate.WebFoundation.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Code\\CrestApps.GitHub\\CrestApps.Pixulia\\Modules\\CrestApps.Pixulia.RealEstate.WebFoundation\\CrestApps.Pixulia.RealEstate.WebFoundation.csproj",
+        "projectName": "CrestApps.Pixulia.RealEstate.WebFoundation",
+        "projectPath": "C:\\Code\\CrestApps.GitHub\\CrestApps.Pixulia\\Modules\\CrestApps.Pixulia.RealEstate.WebFoundation\\CrestApps.Pixulia.RealEstate.WebFoundation.csproj",
+        "packagesPath": "C:\\Users\\malhayek\\.nuget\\packages\\",
+        "outputPath": "C:\\Code\\CrestApps.GitHub\\CrestApps.Pixulia\\Modules\\CrestApps.Pixulia.RealEstate.WebFoundation\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Code\\CrestApps.GitHub\\OrchardCore\\NuGet.Config",
+          "C:\\Users\\malhayek\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Code\\CrestApps.GitHub\\CrestApps.Pixulia\\Core\\CrestApps.Core.Support\\CrestApps.Core.Support.csproj": {
+                "projectPath": "C:\\Code\\CrestApps.GitHub\\CrestApps.Pixulia\\Core\\CrestApps.Core.Support\\CrestApps.Core.Support.csproj"
+              },
+              "C:\\Code\\CrestApps.GitHub\\CrestApps.Pixulia\\Core\\CrestApps.Core.WebFoundation\\CrestApps.Core.WebFoundation.csproj": {
+                "projectPath": "C:\\Code\\CrestApps.GitHub\\CrestApps.Pixulia\\Core\\CrestApps.Core.WebFoundation\\CrestApps.Core.WebFoundation.csproj"
+              },
+              "C:\\Code\\CrestApps.GitHub\\CrestApps.Pixulia\\Modules\\CrestApps.Pixulia.RealEstate.Data.Models\\CrestApps.Pixulia.RealEstate.Data.Models.csproj": {
+                "projectPath": "C:\\Code\\CrestApps.GitHub\\CrestApps.Pixulia\\Modules\\CrestApps.Pixulia.RealEstate.Data.Models\\CrestApps.Pixulia.RealEstate.Data.Models.csproj"
+              },
+              "C:\\Code\\CrestApps.GitHub\\CrestApps.Pixulia\\Modules\\CrestApps.Pixulia.RealEstate.Service\\CrestApps.Pixulia.RealEstate.Service.csproj": {
+                "projectPath": "C:\\Code\\CrestApps.GitHub\\CrestApps.Pixulia\\Modules\\CrestApps.Pixulia.RealEstate.Service\\CrestApps.Pixulia.RealEstate.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

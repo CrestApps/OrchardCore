@@ -1,0 +1,75 @@
+@model Core.Data.Models.CrmTaskInteraction
+@using Core.Support.Helpers;
+
+@{ 
+    var passport = User as IUserPassport;
+
+    var apiEndPoint = Str.TrimEnd(ConfigManager.GetAppSettingByKey("PathToRecordingsApi"), "?");
+
+    var host = $"{apiEndPoint}?callId={Model.InteractionIdKey}&serverId={Model.ServerId}&UserId={passport.UserId}";
+
+    //Core.Foundation.ConfigManager.GetPhoneIntegrationHost("QualityManagement/DownloadRecordingByCallKey")
+}
+<tr>
+    <td class="text-center">
+        @Model.InteractionIdKey
+    </td>
+    <td class="text-center">@Model.Phone</td>
+
+    <td class="text-center">
+
+
+        <div class="jp-jplayer jplayer" data-ancestor="#@Html.Raw("jp_container_" + Model.Id.ToString() + "_" + Html.GetIndexer())" data-url="@(host)" data-server-id="@Model.ServerId" data-callidkey="@Model.InteractionIdKey"></div>
+        <div id="@Html.Raw("jp_container_" + Model.Id.ToString() + "_" + Html.GetIndexer())" class="jp-audio" role="application" aria-label="media player">
+
+            <div class="jp-interface">
+
+
+                <div class="row no-gutters button-controls">
+                    <div class="col-xs-3">
+                        <div class="btn-group btn-group-sm btn-group-justified jp-controls" role="group" aria-label="...">
+                            <a class="jp-play btn btn-info" role="button" tabindex="0" title="Play">
+                                <span class="fa fa-play"></span>
+                            </a>
+
+                            <a class="jp-pause btn btn-info" role="button" tabindex="0" title="Pause">
+                                <span class="fa fa-pause"></span>
+                            </a>
+
+                            <a class="jp-stop btn btn-info jp-post-play hidden" role="button" tabindex="0" title="Stop">
+                                <span class="fa fa-stop"></span>
+                            </a>
+
+                        </div>
+                    </div>
+
+
+                    <div class="col-sm-9">
+                        <div class="jp-seek-bar progress mb-0 h-30">
+                            <div class="jp-play-bar progress-bar progress-bar-striped progress-bar-warning" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="jp-no-solution">
+                    <span>Update Required</span>
+                    To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
+                </div>
+
+            </div>
+        </div>
+    </td>
+
+    <td class="text-center">
+
+        <div class="btn-group btn-group-sm" role="group" aria-label="...">
+            <button class="btn btn-warning btn-sm download-recording" title="Download recording" data-filename="@Model.InteractionIdKey" data-url="@(Core.Foundation.ConfigManager.GetPhoneIntegrationHost("QualityManagement/DownloadRecordingByCallKey"))" data-server-id="@Model.ServerId" data-callidkey="@Model.InteractionIdKey">
+                <span class="fa fa-download"></span>
+            </button>
+        </div>
+
+    </td>
+
+</tr>

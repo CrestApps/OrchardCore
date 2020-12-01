@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "sBql2SG+y4k/NXc+A4ErLv/a4ciOZJem/1ZDVAdoxpQfagnuaLc67ntjPz91qn/5V1RygvDHFaKbsYcLdLnxFQ==",
+  "success": true,
+  "projectFilePath": "C:\\Code\\CrestApps.GitHub\\CrestApps.Pixulia\\Modules\\CrestApps.Pixulia.RealEstate.WebFoundation\\CrestApps.Pixulia.RealEstate.WebFoundation.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\malhayek\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

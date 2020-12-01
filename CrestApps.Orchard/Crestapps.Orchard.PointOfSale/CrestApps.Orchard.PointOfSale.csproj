@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="5.0.0" />
+    <PackageReference Include="OrchardCore.Admin.Abstractions" Version="1.0.0-rc2-15534" />
+    <PackageReference Include="OrchardCore.DisplayManagement" Version="1.0.0-rc2-15534" />
+    <PackageReference Include="OrchardCore.Module.Targets" Version="1.0.0-rc2-15534" />
+    <PackageReference Include="OrchardCore.Navigation.Core" Version="1.0.0-rc2-15534" />
+    <PackageReference Include="OrchardCore.ResourceManagement" Version="1.0.0-rc2-15534" />
+    <PackageReference Include="X.PagedList" Version="8.0.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CrestApps.Data.Abstraction\CrestApps.Data.Abstraction.csproj" />
+    <ProjectReference Include="..\CrestApps.Data.Entity\CrestApps.Data.Entity.csproj" />
+    <ProjectReference Include="..\CrestApps.Mappings\CrestApps.Mappings.csproj" />
+    <ProjectReference Include="..\CrestApps.Orchard.PointOfSale.WebPresentation\CrestApps.Orchard.PointOfSale.WebPresentation.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Handlers\" />
+  </ItemGroup>
+
+</Project>

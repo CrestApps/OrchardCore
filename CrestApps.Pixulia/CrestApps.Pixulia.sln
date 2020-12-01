@@ -1,0 +1,92 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CrestApps.Pixulia.Web", "CrestApps.Pixulia.Web\CrestApps.Pixulia.Web.csproj", "{60259312-A453-4C78-A173-39C47811D6A6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CrestApps.Core.Support", "Core\CrestApps.Core.Support\CrestApps.Core.Support.csproj", "{044A6819-A5F9-421A-8EA7-080B88004B61}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{4CD24522-0FAE-41B4-A413-8306F45A7D2D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{27C921C3-A448-42AF-87B6-6EC9FAB97565}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CrestApps.Pixulia.RealEstate", "Modules\CrestApps.Pixulia.RealEstate\CrestApps.Pixulia.RealEstate.csproj", "{2058066A-0527-4602-AD67-9AF478E5C1A2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CrestApps.Core.Data.Abstraction", "Core\CrestApps.Core.Data.Abstraction\CrestApps.Core.Data.Abstraction.csproj", "{65F16553-385E-4D35-AAB3-FC542190E806}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CrestApps.Core.Store", "Core\CrestApps.Core.Store\CrestApps.Core.Store.csproj", "{0F2FD981-B4B0-4322-9D11-D8C712DEE4FF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dependencies", "Dependencies", "{C0087023-0155-47FF-9D8A-650F9973848A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CrestApps.Pixulia.RealEstate.Data.Models", "Modules\CrestApps.Pixulia.RealEstate.Data.Models\CrestApps.Pixulia.RealEstate.Data.Models.csproj", "{CA01B633-F0DC-400F-9044-F65AD1F64497}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CrestApps.Pixulia.RealEstate.Service", "Modules\CrestApps.Pixulia.RealEstate.Service\CrestApps.Pixulia.RealEstate.Service.csproj", "{FCB1EDEE-B7CC-47C9-BDEE-1F5CCB6DDFA0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CrestApps.Pixulia.RealEstate.Data.Entity", "Modules\CrestApps.Pixulia.RealEstate.Data.Entity\CrestApps.Pixulia.RealEstate.Data.Entity.csproj", "{6E5BACA0-7170-4845-B208-92DBE682C3E2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Themes", "Themes", "{A4B6BA69-E7D7-47A0-BE48-8E7167BF8FA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrestApps.Pixulia.Modern", "Themes\CrestApps.Pixulia.Modern\CrestApps.Pixulia.Modern.csproj", "{299172C0-68A3-4038-8ABE-B3561D14AE93}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{60259312-A453-4C78-A173-39C47811D6A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60259312-A453-4C78-A173-39C47811D6A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60259312-A453-4C78-A173-39C47811D6A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60259312-A453-4C78-A173-39C47811D6A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{044A6819-A5F9-421A-8EA7-080B88004B61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{044A6819-A5F9-421A-8EA7-080B88004B61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{044A6819-A5F9-421A-8EA7-080B88004B61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{044A6819-A5F9-421A-8EA7-080B88004B61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2058066A-0527-4602-AD67-9AF478E5C1A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2058066A-0527-4602-AD67-9AF478E5C1A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2058066A-0527-4602-AD67-9AF478E5C1A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2058066A-0527-4602-AD67-9AF478E5C1A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65F16553-385E-4D35-AAB3-FC542190E806}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65F16553-385E-4D35-AAB3-FC542190E806}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65F16553-385E-4D35-AAB3-FC542190E806}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65F16553-385E-4D35-AAB3-FC542190E806}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F2FD981-B4B0-4322-9D11-D8C712DEE4FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F2FD981-B4B0-4322-9D11-D8C712DEE4FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F2FD981-B4B0-4322-9D11-D8C712DEE4FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F2FD981-B4B0-4322-9D11-D8C712DEE4FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA01B633-F0DC-400F-9044-F65AD1F64497}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA01B633-F0DC-400F-9044-F65AD1F64497}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA01B633-F0DC-400F-9044-F65AD1F64497}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA01B633-F0DC-400F-9044-F65AD1F64497}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCB1EDEE-B7CC-47C9-BDEE-1F5CCB6DDFA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCB1EDEE-B7CC-47C9-BDEE-1F5CCB6DDFA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCB1EDEE-B7CC-47C9-BDEE-1F5CCB6DDFA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCB1EDEE-B7CC-47C9-BDEE-1F5CCB6DDFA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E5BACA0-7170-4845-B208-92DBE682C3E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E5BACA0-7170-4845-B208-92DBE682C3E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E5BACA0-7170-4845-B208-92DBE682C3E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E5BACA0-7170-4845-B208-92DBE682C3E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{299172C0-68A3-4038-8ABE-B3561D14AE93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{299172C0-68A3-4038-8ABE-B3561D14AE93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{299172C0-68A3-4038-8ABE-B3561D14AE93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{299172C0-68A3-4038-8ABE-B3561D14AE93}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{044A6819-A5F9-421A-8EA7-080B88004B61} = {4CD24522-0FAE-41B4-A413-8306F45A7D2D}
+		{2058066A-0527-4602-AD67-9AF478E5C1A2} = {27C921C3-A448-42AF-87B6-6EC9FAB97565}
+		{65F16553-385E-4D35-AAB3-FC542190E806} = {4CD24522-0FAE-41B4-A413-8306F45A7D2D}
+		{0F2FD981-B4B0-4322-9D11-D8C712DEE4FF} = {4CD24522-0FAE-41B4-A413-8306F45A7D2D}
+		{C0087023-0155-47FF-9D8A-650F9973848A} = {27C921C3-A448-42AF-87B6-6EC9FAB97565}
+		{CA01B633-F0DC-400F-9044-F65AD1F64497} = {C0087023-0155-47FF-9D8A-650F9973848A}
+		{FCB1EDEE-B7CC-47C9-BDEE-1F5CCB6DDFA0} = {C0087023-0155-47FF-9D8A-650F9973848A}
+		{6E5BACA0-7170-4845-B208-92DBE682C3E2} = {C0087023-0155-47FF-9D8A-650F9973848A}
+		{299172C0-68A3-4038-8ABE-B3561D14AE93} = {A4B6BA69-E7D7-47A0-BE48-8E7167BF8FA8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {296C6349-15BE-4753-909F-482EC3527368}
+	EndGlobalSection
+EndGlobal

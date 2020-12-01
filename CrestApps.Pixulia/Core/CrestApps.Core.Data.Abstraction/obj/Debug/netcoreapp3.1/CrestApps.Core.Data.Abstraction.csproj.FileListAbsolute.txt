@@ -1,0 +1,17 @@
+C:\Users\malhayek\source\CrestApps\CrestApps.Pixulia\Core\CrestApps.Core.Data.Abstraction\bin\Debug\netcoreapp3.1\CrestApps.Core.Data.Abstraction.deps.json
+C:\Users\malhayek\source\CrestApps\CrestApps.Pixulia\Core\CrestApps.Core.Data.Abstraction\bin\Debug\netcoreapp3.1\CrestApps.Core.Data.Abstraction.dll
+C:\Users\malhayek\source\CrestApps\CrestApps.Pixulia\Core\CrestApps.Core.Data.Abstraction\bin\Debug\netcoreapp3.1\CrestApps.Core.Data.Abstraction.pdb
+C:\Users\malhayek\source\CrestApps\CrestApps.Pixulia\Core\CrestApps.Core.Data.Abstraction\obj\Debug\netcoreapp3.1\CrestApps.Core.Data.Abstraction.csproj.CoreCompileInputs.cache
+C:\Users\malhayek\source\CrestApps\CrestApps.Pixulia\Core\CrestApps.Core.Data.Abstraction\obj\Debug\netcoreapp3.1\CrestApps.Core.Data.Abstraction.AssemblyInfoInputs.cache
+C:\Users\malhayek\source\CrestApps\CrestApps.Pixulia\Core\CrestApps.Core.Data.Abstraction\obj\Debug\netcoreapp3.1\CrestApps.Core.Data.Abstraction.AssemblyInfo.cs
+C:\Users\malhayek\source\CrestApps\CrestApps.Pixulia\Core\CrestApps.Core.Data.Abstraction\obj\Debug\netcoreapp3.1\CrestApps.Core.Data.Abstraction.dll
+C:\Users\malhayek\source\CrestApps\CrestApps.Pixulia\Core\CrestApps.Core.Data.Abstraction\obj\Debug\netcoreapp3.1\CrestApps.Core.Data.Abstraction.pdb
+C:\Code\CrestApps.GitHub\CrestApps.Pixulia\Core\CrestApps.Core.Data.Abstraction\bin\Debug\netcoreapp3.1\CrestApps.Core.Data.Abstraction.deps.json
+C:\Code\CrestApps.GitHub\CrestApps.Pixulia\Core\CrestApps.Core.Data.Abstraction\bin\Debug\netcoreapp3.1\CrestApps.Core.Data.Abstraction.dll
+C:\Code\CrestApps.GitHub\CrestApps.Pixulia\Core\CrestApps.Core.Data.Abstraction\bin\Debug\netcoreapp3.1\CrestApps.Core.Data.Abstraction.pdb
+C:\Code\CrestApps.GitHub\CrestApps.Pixulia\Core\CrestApps.Core.Data.Abstraction\obj\Debug\netcoreapp3.1\CrestApps.Core.Data.Abstraction.csprojAssemblyReference.cache
+C:\Code\CrestApps.GitHub\CrestApps.Pixulia\Core\CrestApps.Core.Data.Abstraction\obj\Debug\netcoreapp3.1\CrestApps.Core.Data.Abstraction.AssemblyInfoInputs.cache
+C:\Code\CrestApps.GitHub\CrestApps.Pixulia\Core\CrestApps.Core.Data.Abstraction\obj\Debug\netcoreapp3.1\CrestApps.Core.Data.Abstraction.AssemblyInfo.cs
+C:\Code\CrestApps.GitHub\CrestApps.Pixulia\Core\CrestApps.Core.Data.Abstraction\obj\Debug\netcoreapp3.1\CrestApps.Core.Data.Abstraction.csproj.CoreCompileInputs.cache
+C:\Code\CrestApps.GitHub\CrestApps.Pixulia\Core\CrestApps.Core.Data.Abstraction\obj\Debug\netcoreapp3.1\CrestApps.Core.Data.Abstraction.dll
+C:\Code\CrestApps.GitHub\CrestApps.Pixulia\Core\CrestApps.Core.Data.Abstraction\obj\Debug\netcoreapp3.1\CrestApps.Core.Data.Abstraction.pdb

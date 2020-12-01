@@ -1,0 +1,80 @@
+{
+  "version": 2,
+  "dgSpecHash": "FPsHkksfYO+5IK5izuMXYPC+TfhOwjEycLcO0kptfnVj+Rp64m/WZ2PwuqQS3N277n6mmHDI6ODMAZ2qS+sfQQ==",
+  "success": false,
+  "projectFilePath": "C:\\Code\\CrestApps.GitHub\\CrestApps.Pixulia\\Modules\\CrestApps.Pixulia.RealEstate\\CrestApps.Pixulia.RealEstate.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\malhayek\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
+    "C:\\Users\\malhayek\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\malhayek\\.nuget\\packages\\microsoft.entityframeworkcore\\3.1.5\\microsoft.entityframeworkcore.3.1.5.nupkg.sha512",
+    "C:\\Users\\malhayek\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\3.1.5\\microsoft.entityframeworkcore.abstractions.3.1.5.nupkg.sha512",
+    "C:\\Users\\malhayek\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\3.1.5\\microsoft.entityframeworkcore.analyzers.3.1.5.nupkg.sha512",
+    "C:\\Users\\malhayek\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\3.1.5\\microsoft.entityframeworkcore.relational.3.1.5.nupkg.sha512",
+    "C:\\Users\\malhayek\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\3.1.5\\microsoft.extensions.caching.abstractions.3.1.5.nupkg.sha512",
+    "C:\\Users\\malhayek\\.nuget\\packages\\microsoft.extensions.caching.memory\\3.1.5\\microsoft.extensions.caching.memory.3.1.5.nupkg.sha512",
+    "C:\\Users\\malhayek\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.5\\microsoft.extensions.configuration.3.1.5.nupkg.sha512",
+    "C:\\Users\\malhayek\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.5\\microsoft.extensions.configuration.abstractions.3.1.5.nupkg.sha512",
+    "C:\\Users\\malhayek\\.nuget\\packages\\microsoft.extensions.configuration.binder\\3.1.5\\microsoft.extensions.configuration.binder.3.1.5.nupkg.sha512",
+    "C:\\Users\\malhayek\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\3.1.5\\microsoft.extensions.dependencyinjection.3.1.5.nupkg.sha512",
+    "C:\\Users\\malhayek\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.5\\microsoft.extensions.dependencyinjection.abstractions.3.1.5.nupkg.sha512",
+    "C:\\Users\\malhayek\\.nuget\\packages\\microsoft.extensions.logging\\3.1.5\\microsoft.extensions.logging.3.1.5.nupkg.sha512",
+    "C:\\Users\\malhayek\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.5\\microsoft.extensions.logging.abstractions.3.1.5.nupkg.sha512",
+    "C:\\Users\\malhayek\\.nuget\\packages\\microsoft.extensions.options\\3.1.5\\microsoft.extensions.options.3.1.5.nupkg.sha512",
+    "C:\\Users\\malhayek\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.5\\microsoft.extensions.primitives.3.1.5.nupkg.sha512",
+    "C:\\Users\\malhayek\\.nuget\\packages\\mysqlconnector\\0.61.0\\mysqlconnector.0.61.0.nupkg.sha512",
+    "C:\\Users\\malhayek\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\malhayek\\.nuget\\packages\\pomelo.entityframeworkcore.mysql\\3.1.1\\pomelo.entityframeworkcore.mysql.3.1.1.nupkg.sha512",
+    "C:\\Users\\malhayek\\.nuget\\packages\\pomelo.jsonobject\\2.2.1\\pomelo.jsonobject.2.2.1.nupkg.sha512",
+    "C:\\Users\\malhayek\\.nuget\\packages\\system.collections.immutable\\1.7.1\\system.collections.immutable.1.7.1.nupkg.sha512",
+    "C:\\Users\\malhayek\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512",
+    "C:\\Users\\malhayek\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'C:\\Code\\repos\\OrchardCore\\src\\OrchardCore\\OrchardCore.Module.Targets\\OrchardCore.Module.Targets.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\Code\\repos\\OrchardCore\\src\\OrchardCore\\OrchardCore.Module.Targets\\OrchardCore.Module.Targets.csproj",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'C:\\Code\\repos\\OrchardCore\\src\\OrchardCore\\OrchardCore.ContentManagement\\OrchardCore.ContentManagement.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\Code\\repos\\OrchardCore\\src\\OrchardCore\\OrchardCore.ContentManagement\\OrchardCore.ContentManagement.csproj",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'C:\\Code\\repos\\OrchardCore\\src\\OrchardCore\\OrchardCore.Data\\OrchardCore.Data.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\Code\\repos\\OrchardCore\\src\\OrchardCore\\OrchardCore.Data\\OrchardCore.Data.csproj",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'C:\\Code\\repos\\OrchardCore\\src\\OrchardCore\\OrchardCore.DisplayManagement\\OrchardCore.DisplayManagement.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\Code\\repos\\OrchardCore\\src\\OrchardCore\\OrchardCore.DisplayManagement\\OrchardCore.DisplayManagement.csproj",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'C:\\Code\\repos\\OrchardCore\\src\\OrchardCore.Modules\\OrchardCore.ContentTypes\\OrchardCore.ContentTypes.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\Code\\repos\\OrchardCore\\src\\OrchardCore.Modules\\OrchardCore.ContentTypes\\OrchardCore.ContentTypes.csproj",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="OrchardCore.Application.Cms.Core.Targets" Version="1.0.0-rc2-13618" />
+    <PackageReference Include="TheAgencyTheme" Version="1.0.0-rc2-13618" />
+    <PackageReference Include="TheBlogTheme" Version="1.0.0-rc2-13618" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Modules\CrestApps.Pixulia.RealEstate\CrestApps.Pixulia.RealEstate.csproj" />
+    <ProjectReference Include="..\Themes\CrestApps.Pixulia.Modern\CrestApps.Pixulia.Modern.csproj" />
+  </ItemGroup>
+
+</Project>

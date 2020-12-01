@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "CrestApps.Core.WebFoundation/1.0.0": {
+        "dependencies": {
+          "CrestApps.Core.Foundation": "1.0.0"
+        },
+        "runtime": {
+          "CrestApps.Core.WebFoundation.dll": {}
+        }
+      },
+      "CrestApps.Core.Foundation/1.0.0": {
+        "runtime": {
+          "CrestApps.Core.Foundation.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CrestApps.Core.WebFoundation/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CrestApps.Core.Foundation/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

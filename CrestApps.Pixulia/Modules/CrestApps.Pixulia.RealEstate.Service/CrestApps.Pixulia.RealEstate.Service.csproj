@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Core\CrestApps.Core.Store\CrestApps.Core.Store.csproj" />
+    <ProjectReference Include="..\CrestApps.Pixulia.RealEstate.Data.Models\CrestApps.Pixulia.RealEstate.Data.Models.csproj" />
+  </ItemGroup>
+
+</Project>

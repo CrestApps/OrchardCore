@@ -1,0 +1,32 @@
+﻿@model CrestApps.Orchard.PointOfSale.WebPresentation.ViewModels.ListContentsViewModel
+
+
+@{
+    var pageTitle = T["Locations"];
+}
+
+<h1>@RenderTitleSegments(pageTitle)</h1>
+
+<form asp-action="Index" method="post" id="items-form" autocomplete="off">
+    <ul class="list-group with-checkbox">
+        @if (Model.ContentItems.Any())
+        {
+            @foreach (var contentItemSummary in Model.ContentItems)
+            {
+                <li class="list-group-item">
+                    @await DisplayAsync(contentItemSummary)
+                </li>
+            }
+        }
+        else
+        {
+            <li class="list-group-item">
+                <div class="alert alert-info">
+                    @T["No results found."]
+                </div>
+            </li>
+        }
+    </ul>
+
+    @await DisplayAsync(Model.Pager)
+</form>

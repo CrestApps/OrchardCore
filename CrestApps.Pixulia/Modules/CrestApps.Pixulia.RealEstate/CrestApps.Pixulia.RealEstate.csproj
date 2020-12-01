@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="3.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\repos\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentTypes\OrchardCore.ContentTypes.csproj" />
+    <ProjectReference Include="..\..\..\..\repos\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement\OrchardCore.ContentManagement.csproj" />
+    <ProjectReference Include="..\..\..\..\repos\OrchardCore\src\OrchardCore\OrchardCore.Data\OrchardCore.Data.csproj" />
+    <ProjectReference Include="..\..\..\..\repos\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\OrchardCore.DisplayManagement.csproj" />
+    <ProjectReference Include="..\..\..\..\repos\OrchardCore\src\OrchardCore\OrchardCore.Module.Targets\OrchardCore.Module.Targets.csproj" />
+    <ProjectReference Include="..\..\Core\CrestApps.Core.Support\CrestApps.Core.Support.csproj" />
+    <ProjectReference Include="..\CrestApps.Pixulia.RealEstate.Data.Entity\CrestApps.Pixulia.RealEstate.Data.Entity.csproj" />
+    <ProjectReference Include="..\CrestApps.Pixulia.RealEstate.Service\CrestApps.Pixulia.RealEstate.Service.csproj" />
+  </ItemGroup>
+
+</Project>

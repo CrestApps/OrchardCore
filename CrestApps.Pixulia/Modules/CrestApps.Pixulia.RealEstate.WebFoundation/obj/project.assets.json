@@ -1,0 +1,250 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Newtonsoft.Json/12.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "CrestApps.Core.Data.Abstraction/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/CrestApps.Core.Data.Abstraction.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CrestApps.Core.Data.Abstraction.dll": {}
+        }
+      },
+      "CrestApps.Core.Foundation/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/CrestApps.Core.Foundation.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CrestApps.Core.Foundation.dll": {}
+        }
+      },
+      "CrestApps.Core.Store/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "CrestApps.Core.Data.Abstraction": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CrestApps.Core.Store.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CrestApps.Core.Store.dll": {}
+        }
+      },
+      "CrestApps.Core.Support/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "compile": {
+          "bin/placeholder/CrestApps.Core.Support.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CrestApps.Core.Support.dll": {}
+        }
+      },
+      "CrestApps.Core.WebFoundation/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "CrestApps.Core.Foundation": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CrestApps.Core.WebFoundation.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CrestApps.Core.WebFoundation.dll": {}
+        }
+      },
+      "CrestApps.Pixulia.RealEstate.Data.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "CrestApps.Core.Data.Abstraction": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CrestApps.Pixulia.RealEstate.Data.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CrestApps.Pixulia.RealEstate.Data.Models.dll": {}
+        }
+      },
+      "CrestApps.Pixulia.RealEstate.Service/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "CrestApps.Core.Store": "1.0.0",
+          "CrestApps.Pixulia.RealEstate.Data.Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CrestApps.Pixulia.RealEstate.Service.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CrestApps.Pixulia.RealEstate.Service.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Newtonsoft.Json/12.0.3": {
+      "sha512": "6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+      "type": "package",
+      "path": "newtonsoft.json/12.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "newtonsoft.json.12.0.3.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    },
+    "CrestApps.Core.Data.Abstraction/1.0.0": {
+      "type": "project",
+      "path": "../../Core/CrestApps.Core.Data.Abstraction/CrestApps.Core.Data.Abstraction.csproj",
+      "msbuildProject": "../../Core/CrestApps.Core.Data.Abstraction/CrestApps.Core.Data.Abstraction.csproj"
+    },
+    "CrestApps.Core.Foundation/1.0.0": {
+      "type": "project",
+      "path": "../../Core/CrestApps.Core.Foundation/CrestApps.Core.Foundation.csproj",
+      "msbuildProject": "../../Core/CrestApps.Core.Foundation/CrestApps.Core.Foundation.csproj"
+    },
+    "CrestApps.Core.Store/1.0.0": {
+      "type": "project",
+      "path": "../../Core/CrestApps.Core.Store/CrestApps.Core.Store.csproj",
+      "msbuildProject": "../../Core/CrestApps.Core.Store/CrestApps.Core.Store.csproj"
+    },
+    "CrestApps.Core.Support/1.0.0": {
+      "type": "project",
+      "path": "../../Core/CrestApps.Core.Support/CrestApps.Core.Support.csproj",
+      "msbuildProject": "../../Core/CrestApps.Core.Support/CrestApps.Core.Support.csproj"
+    },
+    "CrestApps.Core.WebFoundation/1.0.0": {
+      "type": "project",
+      "path": "../../Core/CrestApps.Core.WebFoundation/CrestApps.Core.WebFoundation.csproj",
+      "msbuildProject": "../../Core/CrestApps.Core.WebFoundation/CrestApps.Core.WebFoundation.csproj"
+    },
+    "CrestApps.Pixulia.RealEstate.Data.Models/1.0.0": {
+      "type": "project",
+      "path": "../CrestApps.Pixulia.RealEstate.Data.Models/CrestApps.Pixulia.RealEstate.Data.Models.csproj",
+      "msbuildProject": "../CrestApps.Pixulia.RealEstate.Data.Models/CrestApps.Pixulia.RealEstate.Data.Models.csproj"
+    },
+    "CrestApps.Pixulia.RealEstate.Service/1.0.0": {
+      "type": "project",
+      "path": "../CrestApps.Pixulia.RealEstate.Service/CrestApps.Pixulia.RealEstate.Service.csproj",
+      "msbuildProject": "../CrestApps.Pixulia.RealEstate.Service/CrestApps.Pixulia.RealEstate.Service.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "CrestApps.Core.Support >= 1.0.0",
+      "CrestApps.Core.WebFoundation >= 1.0.0",
+      "CrestApps.Pixulia.RealEstate.Data.Models >= 1.0.0",
+      "CrestApps.Pixulia.RealEstate.Service >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\malhayek\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Code\\CrestApps.GitHub\\CrestApps.Pixulia\\Modules\\CrestApps.Pixulia.RealEstate.WebFoundation\\CrestApps.Pixulia.RealEstate.WebFoundation.csproj",
+      "projectName": "CrestApps.Pixulia.RealEstate.WebFoundation",
+      "projectPath": "C:\\Code\\CrestApps.GitHub\\CrestApps.Pixulia\\Modules\\CrestApps.Pixulia.RealEstate.WebFoundation\\CrestApps.Pixulia.RealEstate.WebFoundation.csproj",
+      "packagesPath": "C:\\Users\\malhayek\\.nuget\\packages\\",
+      "outputPath": "C:\\Code\\CrestApps.GitHub\\CrestApps.Pixulia\\Modules\\CrestApps.Pixulia.RealEstate.WebFoundation\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Code\\CrestApps.GitHub\\OrchardCore\\NuGet.Config",
+        "C:\\Users\\malhayek\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {
+            "C:\\Code\\CrestApps.GitHub\\CrestApps.Pixulia\\Core\\CrestApps.Core.Support\\CrestApps.Core.Support.csproj": {
+              "projectPath": "C:\\Code\\CrestApps.GitHub\\CrestApps.Pixulia\\Core\\CrestApps.Core.Support\\CrestApps.Core.Support.csproj"
+            },
+            "C:\\Code\\CrestApps.GitHub\\CrestApps.Pixulia\\Core\\CrestApps.Core.WebFoundation\\CrestApps.Core.WebFoundation.csproj": {
+              "projectPath": "C:\\Code\\CrestApps.GitHub\\CrestApps.Pixulia\\Core\\CrestApps.Core.WebFoundation\\CrestApps.Core.WebFoundation.csproj"
+            },
+            "C:\\Code\\CrestApps.GitHub\\CrestApps.Pixulia\\Modules\\CrestApps.Pixulia.RealEstate.Data.Models\\CrestApps.Pixulia.RealEstate.Data.Models.csproj": {
+              "projectPath": "C:\\Code\\CrestApps.GitHub\\CrestApps.Pixulia\\Modules\\CrestApps.Pixulia.RealEstate.Data.Models\\CrestApps.Pixulia.RealEstate.Data.Models.csproj"
+            },
+            "C:\\Code\\CrestApps.GitHub\\CrestApps.Pixulia\\Modules\\CrestApps.Pixulia.RealEstate.Service\\CrestApps.Pixulia.RealEstate.Service.csproj": {
+              "projectPath": "C:\\Code\\CrestApps.GitHub\\CrestApps.Pixulia\\Modules\\CrestApps.Pixulia.RealEstate.Service\\CrestApps.Pixulia.RealEstate.Service.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

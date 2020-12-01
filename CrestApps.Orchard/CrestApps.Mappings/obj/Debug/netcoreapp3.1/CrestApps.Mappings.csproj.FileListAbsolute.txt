@@ -1,0 +1,9 @@
+C:\Code\CrestApps.GitHub\CrestApps.Orchard\CrestApps.Mappings\bin\Debug\netcoreapp3.1\CrestApps.Mappings.deps.json
+C:\Code\CrestApps.GitHub\CrestApps.Orchard\CrestApps.Mappings\bin\Debug\netcoreapp3.1\CrestApps.Mappings.dll
+C:\Code\CrestApps.GitHub\CrestApps.Orchard\CrestApps.Mappings\bin\Debug\netcoreapp3.1\CrestApps.Mappings.pdb
+C:\Code\CrestApps.GitHub\CrestApps.Orchard\CrestApps.Mappings\obj\Debug\netcoreapp3.1\CrestApps.Mappings.csprojAssemblyReference.cache
+C:\Code\CrestApps.GitHub\CrestApps.Orchard\CrestApps.Mappings\obj\Debug\netcoreapp3.1\CrestApps.Mappings.AssemblyInfoInputs.cache
+C:\Code\CrestApps.GitHub\CrestApps.Orchard\CrestApps.Mappings\obj\Debug\netcoreapp3.1\CrestApps.Mappings.AssemblyInfo.cs
+C:\Code\CrestApps.GitHub\CrestApps.Orchard\CrestApps.Mappings\obj\Debug\netcoreapp3.1\CrestApps.Mappings.csproj.CoreCompileInputs.cache
+C:\Code\CrestApps.GitHub\CrestApps.Orchard\CrestApps.Mappings\obj\Debug\netcoreapp3.1\CrestApps.Mappings.dll
+C:\Code\CrestApps.GitHub\CrestApps.Orchard\CrestApps.Mappings\obj\Debug\netcoreapp3.1\CrestApps.Mappings.pdb

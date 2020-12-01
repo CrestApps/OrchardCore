@@ -1,0 +1,23 @@
+﻿
+<div class="card">
+    @if (Model.Header != null)
+    {
+        <div class="card-header">
+            @await DisplayAsync(Model.Header)
+        </div>
+    }
+
+    @if (Model.Body != null)
+    {
+        <div class="card-body">
+            @await DisplayAsync(Model.Body)
+        </div>
+    }
+
+    @if (Model.Footer != null)
+    {
+        <div class="card-footer">
+            @await DisplayAsync(Model.Footer)
+        </div>
+    }
+</div>

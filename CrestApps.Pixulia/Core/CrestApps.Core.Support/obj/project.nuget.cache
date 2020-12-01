@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "IP3txjNpt9p/ikl16dBEYaJRKX4qWyaH/ghD2ut2VGLEAduKelli9iJ/aa5F52Rp8wxDnKMp5D7ivpMALhDOOg==",
+  "success": true,
+  "projectFilePath": "C:\\Code\\CrestApps.GitHub\\CrestApps.Pixulia\\Core\\CrestApps.Core.Support\\CrestApps.Core.Support.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\malhayek\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

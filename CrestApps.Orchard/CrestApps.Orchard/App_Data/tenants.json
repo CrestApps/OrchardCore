@@ -1,0 +1,11 @@
+{
+  "Default": {
+    "Identifier": "454h7jkyjyap2x04zmh2s1ecmb",
+    "State": "Running"
+  },
+  "first_clinic_123": {
+    "Identifier": "4bmdwh2b4740k30ea4g84zefw1",
+    "RequestUrlHost": "one.core",
+    "State": "Running"
+  }
+}

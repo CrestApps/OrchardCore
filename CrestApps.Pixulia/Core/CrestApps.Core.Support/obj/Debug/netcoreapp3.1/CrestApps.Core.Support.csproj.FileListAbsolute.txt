@@ -1,0 +1,17 @@
+C:\Users\malhayek\source\CrestApps\CrestApps.Pixulia\Core\CrestApps.Core.Support\bin\Debug\netcoreapp3.1\CrestApps.Core.Support.deps.json
+C:\Users\malhayek\source\CrestApps\CrestApps.Pixulia\Core\CrestApps.Core.Support\bin\Debug\netcoreapp3.1\CrestApps.Core.Support.dll
+C:\Users\malhayek\source\CrestApps\CrestApps.Pixulia\Core\CrestApps.Core.Support\bin\Debug\netcoreapp3.1\CrestApps.Core.Support.pdb
+C:\Users\malhayek\source\CrestApps\CrestApps.Pixulia\Core\CrestApps.Core.Support\obj\Debug\netcoreapp3.1\CrestApps.Core.Support.AssemblyInfoInputs.cache
+C:\Users\malhayek\source\CrestApps\CrestApps.Pixulia\Core\CrestApps.Core.Support\obj\Debug\netcoreapp3.1\CrestApps.Core.Support.AssemblyInfo.cs
+C:\Users\malhayek\source\CrestApps\CrestApps.Pixulia\Core\CrestApps.Core.Support\obj\Debug\netcoreapp3.1\CrestApps.Core.Support.csproj.CoreCompileInputs.cache
+C:\Users\malhayek\source\CrestApps\CrestApps.Pixulia\Core\CrestApps.Core.Support\obj\Debug\netcoreapp3.1\CrestApps.Core.Support.dll
+C:\Users\malhayek\source\CrestApps\CrestApps.Pixulia\Core\CrestApps.Core.Support\obj\Debug\netcoreapp3.1\CrestApps.Core.Support.pdb
+C:\Code\CrestApps.GitHub\CrestApps.Pixulia\Core\CrestApps.Core.Support\bin\Debug\netcoreapp3.1\CrestApps.Core.Support.deps.json
+C:\Code\CrestApps.GitHub\CrestApps.Pixulia\Core\CrestApps.Core.Support\bin\Debug\netcoreapp3.1\CrestApps.Core.Support.dll
+C:\Code\CrestApps.GitHub\CrestApps.Pixulia\Core\CrestApps.Core.Support\bin\Debug\netcoreapp3.1\CrestApps.Core.Support.pdb
+C:\Code\CrestApps.GitHub\CrestApps.Pixulia\Core\CrestApps.Core.Support\obj\Debug\netcoreapp3.1\CrestApps.Core.Support.AssemblyInfoInputs.cache
+C:\Code\CrestApps.GitHub\CrestApps.Pixulia\Core\CrestApps.Core.Support\obj\Debug\netcoreapp3.1\CrestApps.Core.Support.AssemblyInfo.cs
+C:\Code\CrestApps.GitHub\CrestApps.Pixulia\Core\CrestApps.Core.Support\obj\Debug\netcoreapp3.1\CrestApps.Core.Support.csproj.CoreCompileInputs.cache
+C:\Code\CrestApps.GitHub\CrestApps.Pixulia\Core\CrestApps.Core.Support\obj\Debug\netcoreapp3.1\CrestApps.Core.Support.dll
+C:\Code\CrestApps.GitHub\CrestApps.Pixulia\Core\CrestApps.Core.Support\obj\Debug\netcoreapp3.1\CrestApps.Core.Support.pdb
+C:\Code\CrestApps.GitHub\CrestApps.Pixulia\Core\CrestApps.Core.Support\obj\Debug\netcoreapp3.1\CrestApps.Core.Support.csprojAssemblyReference.cache

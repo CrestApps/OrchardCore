@@ -1,0 +1,4 @@
+C:\Code\CrestApps.GitHub\CrestApps.Core\CrestApps.Data.Models\obj\Debug\netcoreapp3.1\CrestApps.Data.Models.csprojAssemblyReference.cache
+C:\Code\CrestApps.GitHub\CrestApps.Core\CrestApps.Data.Models\obj\Debug\netcoreapp3.1\CrestApps.Data.Models.AssemblyInfoInputs.cache
+C:\Code\CrestApps.GitHub\CrestApps.Core\CrestApps.Data.Models\obj\Debug\netcoreapp3.1\CrestApps.Data.Models.AssemblyInfo.cs
+C:\Code\CrestApps.GitHub\CrestApps.Core\CrestApps.Data.Models\obj\Debug\netcoreapp3.1\CrestApps.Data.Models.csproj.CoreCompileInputs.cache

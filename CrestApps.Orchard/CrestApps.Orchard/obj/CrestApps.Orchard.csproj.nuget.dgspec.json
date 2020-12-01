@@ -1,0 +1,820 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Code\\CrestApps.GitHub\\CrestApps.Orchard\\CrestApps.Orchard\\CrestApps.Orchard.csproj": {}
+  },
+  "projects": {
+    "C:\\Code\\CrestApps.GitHub\\CrestApps.Orchard\\CrestApps.Common.Helpers\\CrestApps.Common.Helpers.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Code\\CrestApps.GitHub\\CrestApps.Orchard\\CrestApps.Common.Helpers\\CrestApps.Common.Helpers.csproj",
+        "projectName": "CrestApps.Common.Helpers",
+        "projectPath": "C:\\Code\\CrestApps.GitHub\\CrestApps.Orchard\\CrestApps.Common.Helpers\\CrestApps.Common.Helpers.csproj",
+        "packagesPath": "C:\\Users\\malhayek\\.nuget\\packages\\",
+        "outputPath": "C:\\Code\\CrestApps.GitHub\\CrestApps.Orchard\\CrestApps.Common.Helpers\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\malhayek\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://crestapps.pkgs.visualstudio.com/_packaging/crestapps/nuget/v3/index.json": {},
+          "https://nuget.cloudsmith.io/orchardcore/preview/v3/index.json": {},
+          "https://pkgs.dev.azure.com/RDIApps/43b0b886-4547-42c8-9481-04abbb35aa15/_packaging/CoreApps/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Code\\CrestApps.GitHub\\CrestApps.Orchard\\CrestApps.Data.Abstraction\\CrestApps.Data.Abstraction.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Code\\CrestApps.GitHub\\CrestApps.Orchard\\CrestApps.Data.Abstraction\\CrestApps.Data.Abstraction.csproj",
+        "projectName": "CrestApps.Data.Abstraction",
+        "projectPath": "C:\\Code\\CrestApps.GitHub\\CrestApps.Orchard\\CrestApps.Data.Abstraction\\CrestApps.Data.Abstraction.csproj",
+        "packagesPath": "C:\\Users\\malhayek\\.nuget\\packages\\",
+        "outputPath": "C:\\Code\\CrestApps.GitHub\\CrestApps.Orchard\\CrestApps.Data.Abstraction\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\malhayek\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://crestapps.pkgs.visualstudio.com/_packaging/crestapps/nuget/v3/index.json": {},
+          "https://nuget.cloudsmith.io/orchardcore/preview/v3/index.json": {},
+          "https://pkgs.dev.azure.com/RDIApps/43b0b886-4547-42c8-9481-04abbb35aa15/_packaging/CoreApps/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Code\\CrestApps.GitHub\\CrestApps.Orchard\\CrestApps.Data.Core.Abstraction\\CrestApps.Data.Core.Abstraction.csproj": {
+                "projectPath": "C:\\Code\\CrestApps.GitHub\\CrestApps.Orchard\\CrestApps.Data.Core.Abstraction\\CrestApps.Data.Core.Abstraction.csproj"
+              },
+              "C:\\Code\\CrestApps.GitHub\\CrestApps.Orchard\\CrestApps.Data.Models\\CrestApps.Data.Models.csproj": {
+                "projectPath": "C:\\Code\\CrestApps.GitHub\\CrestApps.Orchard\\CrestApps.Data.Models\\CrestApps.Data.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Code\\CrestApps.GitHub\\CrestApps.Orchard\\CrestApps.Data.Core.Abstraction\\CrestApps.Data.Core.Abstraction.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Code\\CrestApps.GitHub\\CrestApps.Orchard\\CrestApps.Data.Core.Abstraction\\CrestApps.Data.Core.Abstraction.csproj",
+        "projectName": "CrestApps.Data.Core.Abstraction",
+        "projectPath": "C:\\Code\\CrestApps.GitHub\\CrestApps.Orchard\\CrestApps.Data.Core.Abstraction\\CrestApps.Data.Core.Abstraction.csproj",
+        "packagesPath": "C:\\Users\\malhayek\\.nuget\\packages\\",
+        "outputPath": "C:\\Code\\CrestApps.GitHub\\CrestApps.Orchard\\CrestApps.Data.Core.Abstraction\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\malhayek\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://crestapps.pkgs.visualstudio.com/_packaging/crestapps/nuget/v3/index.json": {},
+          "https://nuget.cloudsmith.io/orchardcore/preview/v3/index.json": {},
+          "https://pkgs.dev.azure.com/RDIApps/43b0b886-4547-42c8-9481-04abbb35aa15/_packaging/CoreApps/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Code\\CrestApps.GitHub\\CrestApps.Orchard\\CrestApps.Data.Entity\\CrestApps.Data.Entity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Code\\CrestApps.GitHub\\CrestApps.Orchard\\CrestApps.Data.Entity\\CrestApps.Data.Entity.csproj",
+        "projectName": "CrestApps.Data.Entity",
+        "projectPath": "C:\\Code\\CrestApps.GitHub\\CrestApps.Orchard\\CrestApps.Data.Entity\\CrestApps.Data.Entity.csproj",
+        "packagesPath": "C:\\Users\\malhayek\\.nuget\\packages\\",
+        "outputPath": "C:\\Code\\CrestApps.GitHub\\CrestApps.Orchard\\CrestApps.Data.Entity\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\malhayek\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://crestapps.pkgs.visualstudio.com/_packaging/crestapps/nuget/v3/index.json": {},
+          "https://nuget.cloudsmith.io/orchardcore/preview/v3/index.json": {},
+          "https://pkgs.dev.azure.com/RDIApps/43b0b886-4547-42c8-9481-04abbb35aa15/_packaging/CoreApps/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Code\\CrestApps.GitHub\\CrestApps.Orchard\\CrestApps.Common.Helpers\\CrestApps.Common.Helpers.csproj": {
+                "projectPath": "C:\\Code\\CrestApps.GitHub\\CrestApps.Orchard\\CrestApps.Common.Helpers\\CrestApps.Common.Helpers.csproj"
+              },
+              "C:\\Code\\CrestApps.GitHub\\CrestApps.Orchard\\CrestApps.Data.Abstraction\\CrestApps.Data.Abstraction.csproj": {
+                "projectPath": "C:\\Code\\CrestApps.GitHub\\CrestApps.Orchard\\CrestApps.Data.Abstraction\\CrestApps.Data.Abstraction.csproj"
+              },
+              "C:\\Code\\CrestApps.GitHub\\CrestApps.Orchard\\CrestApps.Data.Models\\CrestApps.Data.Models.csproj": {
+                "projectPath": "C:\\Code\\CrestApps.GitHub\\CrestApps.Orchard\\CrestApps.Data.Models\\CrestApps.Data.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "OrchardCore.Data.Abstractions": {
+              "target": "Package",
+              "version": "[1.0.0-rc2-15534, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[5.0.0-alpha.2, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Code\\CrestApps.GitHub\\CrestApps.Orchard\\CrestApps.Data.Models\\CrestApps.Data.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Code\\CrestApps.GitHub\\CrestApps.Orchard\\CrestApps.Data.Models\\CrestApps.Data.Models.csproj",
+        "projectName": "CrestApps.Data.Models",
+        "projectPath": "C:\\Code\\CrestApps.GitHub\\CrestApps.Orchard\\CrestApps.Data.Models\\CrestApps.Data.Models.csproj",
+        "packagesPath": "C:\\Users\\malhayek\\.nuget\\packages\\",
+        "outputPath": "C:\\Code\\CrestApps.GitHub\\CrestApps.Orchard\\CrestApps.Data.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\malhayek\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://crestapps.pkgs.visualstudio.com/_packaging/crestapps/nuget/v3/index.json": {},
+          "https://nuget.cloudsmith.io/orchardcore/preview/v3/index.json": {},
+          "https://pkgs.dev.azure.com/RDIApps/43b0b886-4547-42c8-9481-04abbb35aa15/_packaging/CoreApps/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Code\\CrestApps.GitHub\\CrestApps.Orchard\\CrestApps.Data.Core.Abstraction\\CrestApps.Data.Core.Abstraction.csproj": {
+                "projectPath": "C:\\Code\\CrestApps.GitHub\\CrestApps.Orchard\\CrestApps.Data.Core.Abstraction\\CrestApps.Data.Core.Abstraction.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.Extensions.Identity.Stores": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Code\\CrestApps.GitHub\\CrestApps.Orchard\\CrestApps.Mappings\\CrestApps.Mappings.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Code\\CrestApps.GitHub\\CrestApps.Orchard\\CrestApps.Mappings\\CrestApps.Mappings.csproj",
+        "projectName": "CrestApps.Mappings",
+        "projectPath": "C:\\Code\\CrestApps.GitHub\\CrestApps.Orchard\\CrestApps.Mappings\\CrestApps.Mappings.csproj",
+        "packagesPath": "C:\\Users\\malhayek\\.nuget\\packages\\",
+        "outputPath": "C:\\Code\\CrestApps.GitHub\\CrestApps.Orchard\\CrestApps.Mappings\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\malhayek\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://crestapps.pkgs.visualstudio.com/_packaging/crestapps/nuget/v3/index.json": {},
+          "https://nuget.cloudsmith.io/orchardcore/preview/v3/index.json": {},
+          "https://pkgs.dev.azure.com/RDIApps/43b0b886-4547-42c8-9481-04abbb35aa15/_packaging/CoreApps/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Code\\CrestApps.GitHub\\CrestApps.Orchard\\CrestApps.Orchard.PointOfSale.WebPresentation\\CrestApps.Orchard.PointOfSale.WebPresentation.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Code\\CrestApps.GitHub\\CrestApps.Orchard\\CrestApps.Orchard.PointOfSale.WebPresentation\\CrestApps.Orchard.PointOfSale.WebPresentation.csproj",
+        "projectName": "CrestApps.Orchard.PointOfSale.WebPresentation",
+        "projectPath": "C:\\Code\\CrestApps.GitHub\\CrestApps.Orchard\\CrestApps.Orchard.PointOfSale.WebPresentation\\CrestApps.Orchard.PointOfSale.WebPresentation.csproj",
+        "packagesPath": "C:\\Users\\malhayek\\.nuget\\packages\\",
+        "outputPath": "C:\\Code\\CrestApps.GitHub\\CrestApps.Orchard\\CrestApps.Orchard.PointOfSale.WebPresentation\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\malhayek\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://crestapps.pkgs.visualstudio.com/_packaging/crestapps/nuget/v3/index.json": {},
+          "https://nuget.cloudsmith.io/orchardcore/preview/v3/index.json": {},
+          "https://pkgs.dev.azure.com/RDIApps/43b0b886-4547-42c8-9481-04abbb35aa15/_packaging/CoreApps/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Code\\CrestApps.GitHub\\CrestApps.Orchard\\CrestApps.Data.Models\\CrestApps.Data.Models.csproj": {
+                "projectPath": "C:\\Code\\CrestApps.GitHub\\CrestApps.Orchard\\CrestApps.Data.Models\\CrestApps.Data.Models.csproj"
+              },
+              "C:\\Code\\CrestApps.GitHub\\CrestApps.Orchard\\CrestApps.Mappings\\CrestApps.Mappings.csproj": {
+                "projectPath": "C:\\Code\\CrestApps.GitHub\\CrestApps.Orchard\\CrestApps.Mappings\\CrestApps.Mappings.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "OrchardCore.DisplayManagement": {
+              "target": "Package",
+              "version": "[1.0.0-rc2-15534, )"
+            },
+            "X.PagedList": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Code\\CrestApps.GitHub\\CrestApps.Orchard\\Crestapps.Orchard.PointOfSale\\CrestApps.Orchard.PointOfSale.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Code\\CrestApps.GitHub\\CrestApps.Orchard\\Crestapps.Orchard.PointOfSale\\CrestApps.Orchard.PointOfSale.csproj",
+        "projectName": "CrestApps.Orchard.PointOfSale",
+        "projectPath": "C:\\Code\\CrestApps.GitHub\\CrestApps.Orchard\\Crestapps.Orchard.PointOfSale\\CrestApps.Orchard.PointOfSale.csproj",
+        "packagesPath": "C:\\Users\\malhayek\\.nuget\\packages\\",
+        "outputPath": "C:\\Code\\CrestApps.GitHub\\CrestApps.Orchard\\Crestapps.Orchard.PointOfSale\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\malhayek\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://crestapps.pkgs.visualstudio.com/_packaging/crestapps/nuget/v3/index.json": {},
+          "https://nuget.cloudsmith.io/orchardcore/preview/v3/index.json": {},
+          "https://pkgs.dev.azure.com/RDIApps/43b0b886-4547-42c8-9481-04abbb35aa15/_packaging/CoreApps/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Code\\CrestApps.GitHub\\CrestApps.Orchard\\CrestApps.Data.Abstraction\\CrestApps.Data.Abstraction.csproj": {
+                "projectPath": "C:\\Code\\CrestApps.GitHub\\CrestApps.Orchard\\CrestApps.Data.Abstraction\\CrestApps.Data.Abstraction.csproj"
+              },
+              "C:\\Code\\CrestApps.GitHub\\CrestApps.Orchard\\CrestApps.Data.Entity\\CrestApps.Data.Entity.csproj": {
+                "projectPath": "C:\\Code\\CrestApps.GitHub\\CrestApps.Orchard\\CrestApps.Data.Entity\\CrestApps.Data.Entity.csproj"
+              },
+              "C:\\Code\\CrestApps.GitHub\\CrestApps.Orchard\\CrestApps.Mappings\\CrestApps.Mappings.csproj": {
+                "projectPath": "C:\\Code\\CrestApps.GitHub\\CrestApps.Orchard\\CrestApps.Mappings\\CrestApps.Mappings.csproj"
+              },
+              "C:\\Code\\CrestApps.GitHub\\CrestApps.Orchard\\CrestApps.Orchard.PointOfSale.WebPresentation\\CrestApps.Orchard.PointOfSale.WebPresentation.csproj": {
+                "projectPath": "C:\\Code\\CrestApps.GitHub\\CrestApps.Orchard\\CrestApps.Orchard.PointOfSale.WebPresentation\\CrestApps.Orchard.PointOfSale.WebPresentation.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "OrchardCore.Admin.Abstractions": {
+              "target": "Package",
+              "version": "[1.0.0-rc2-15534, )"
+            },
+            "OrchardCore.DisplayManagement": {
+              "target": "Package",
+              "version": "[1.0.0-rc2-15534, )"
+            },
+            "OrchardCore.Module.Targets": {
+              "target": "Package",
+              "version": "[1.0.0-rc2-15534, )"
+            },
+            "OrchardCore.Navigation.Core": {
+              "target": "Package",
+              "version": "[1.0.0-rc2-15534, )"
+            },
+            "OrchardCore.ResourceManagement": {
+              "target": "Package",
+              "version": "[1.0.0-rc2-15534, )"
+            },
+            "X.PagedList": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Code\\CrestApps.GitHub\\CrestApps.Orchard\\CrestApps.Orchard\\CrestApps.Orchard.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Code\\CrestApps.GitHub\\CrestApps.Orchard\\CrestApps.Orchard\\CrestApps.Orchard.csproj",
+        "projectName": "CrestApps.Orchard",
+        "projectPath": "C:\\Code\\CrestApps.GitHub\\CrestApps.Orchard\\CrestApps.Orchard\\CrestApps.Orchard.csproj",
+        "packagesPath": "C:\\Users\\malhayek\\.nuget\\packages\\",
+        "outputPath": "C:\\Code\\CrestApps.GitHub\\CrestApps.Orchard\\CrestApps.Orchard\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\malhayek\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://crestapps.pkgs.visualstudio.com/_packaging/crestapps/nuget/v3/index.json": {},
+          "https://nuget.cloudsmith.io/orchardcore/preview/v3/index.json": {},
+          "https://pkgs.dev.azure.com/RDIApps/43b0b886-4547-42c8-9481-04abbb35aa15/_packaging/CoreApps/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Code\\CrestApps.GitHub\\CrestApps.Orchard\\CrestApps.Data.Entity\\CrestApps.Data.Entity.csproj": {
+                "projectPath": "C:\\Code\\CrestApps.GitHub\\CrestApps.Orchard\\CrestApps.Data.Entity\\CrestApps.Data.Entity.csproj"
+              },
+              "C:\\Code\\CrestApps.GitHub\\CrestApps.Orchard\\Crestapps.Orchard.PointOfSale\\CrestApps.Orchard.PointOfSale.csproj": {
+                "projectPath": "C:\\Code\\CrestApps.GitHub\\CrestApps.Orchard\\Crestapps.Orchard.PointOfSale\\CrestApps.Orchard.PointOfSale.csproj"
+              },
+              "C:\\Code\\CrestApps.GitHub\\CrestApps.Orchard\\Lombiq.TrainingDemo\\Lombiq.TrainingDemo.csproj": {
+                "projectPath": "C:\\Code\\CrestApps.GitHub\\CrestApps.Orchard\\Lombiq.TrainingDemo\\Lombiq.TrainingDemo.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "OrchardCore.Application.Cms.Targets": {
+              "target": "Package",
+              "version": "[1.0.0-rc2-15534, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Code\\CrestApps.GitHub\\CrestApps.Orchard\\Lombiq.TrainingDemo\\Lombiq.TrainingDemo.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Code\\CrestApps.GitHub\\CrestApps.Orchard\\Lombiq.TrainingDemo\\Lombiq.TrainingDemo.csproj",
+        "projectName": "Lombiq.TrainingDemo",
+        "projectPath": "C:\\Code\\CrestApps.GitHub\\CrestApps.Orchard\\Lombiq.TrainingDemo\\Lombiq.TrainingDemo.csproj",
+        "packagesPath": "C:\\Users\\malhayek\\.nuget\\packages\\",
+        "outputPath": "C:\\Code\\CrestApps.GitHub\\CrestApps.Orchard\\Lombiq.TrainingDemo\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\malhayek\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://crestapps.pkgs.visualstudio.com/_packaging/crestapps/nuget/v3/index.json": {},
+          "https://nuget.cloudsmith.io/orchardcore/preview/v3/index.json": {},
+          "https://pkgs.dev.azure.com/RDIApps/43b0b886-4547-42c8-9481-04abbb35aa15/_packaging/CoreApps/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "OrchardCore.BackgroundTasks": {
+              "target": "Package",
+              "version": "[1.0.0-rc2-15534, )"
+            },
+            "OrchardCore.ContentFields": {
+              "target": "Package",
+              "version": "[1.0.0-rc2-15534, )"
+            },
+            "OrchardCore.ContentManagement": {
+              "target": "Package",
+              "version": "[1.0.0-rc2-15534, )"
+            },
+            "OrchardCore.ContentTypes.Abstractions": {
+              "target": "Package",
+              "version": "[1.0.0-rc2-15534, )"
+            },
+            "OrchardCore.Data.Abstractions": {
+              "target": "Package",
+              "version": "[1.0.0-rc2-15534, )"
+            },
+            "OrchardCore.DisplayManagement": {
+              "target": "Package",
+              "version": "[1.0.0-rc2-15534, )"
+            },
+            "OrchardCore.DynamicCache": {
+              "target": "Package",
+              "version": "[1.0.0-rc2-15534, )"
+            },
+            "OrchardCore.FileStorage.FileSystem": {
+              "target": "Package",
+              "version": "[1.0.0-rc2-15534, )"
+            },
+            "OrchardCore.Indexing.Abstractions": {
+              "target": "Package",
+              "version": "[1.0.0-rc2-15534, )"
+            },
+            "OrchardCore.Media.Abstractions": {
+              "target": "Package",
+              "version": "[1.0.0-rc2-15534, )"
+            },
+            "OrchardCore.Module.Targets": {
+              "target": "Package",
+              "version": "[1.0.0-rc2-15534, )"
+            },
+            "OrchardCore.ResourceManagement": {
+              "target": "Package",
+              "version": "[1.0.0-rc2-15534, )"
+            },
+            "OrchardCore.Users.Abstractions": {
+              "target": "Package",
+              "version": "[1.0.0-rc2-15534, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

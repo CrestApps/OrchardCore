@@ -1,0 +1,15 @@
+﻿@model CrestApps.Orchard.PointOfSale.WebPresentation.ViewModels.Locations.DisplayLocationSummaryViewModel
+
+
+<div class="row">
+
+    <div class="col-sm-12 col-md-8 col-lg-10">
+        @Model.Name
+    </div>
+
+    <div class="col-sm-12 col-md-4 col-lg-2">
+        <a asp-action="Display" asp-route-Id="@Model.Id" class="btn btn-secondary">View</a>
+        <a asp-action="Edit" asp-route-Id="@Model.Id" class="btn btn-primary">Edit</a>&nbsp;
+    </div>
+
+</div>

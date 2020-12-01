@@ -1,0 +1,77 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>$(DefaultNetCoreTargetFramework)</TargetFramework>
+    <LegacyTargetFramework>$(DefaultNetCoreLegacyTargetFramework)</LegacyTargetFramework>
+    <PreserveCompilationContext>true</PreserveCompilationContext>
+    <AssemblyName>Pomelo.EntityFrameworkCore.MySql.Tests</AssemblyName>
+    <RootNamespace>Pomelo.EntityFrameworkCore.MySql</RootNamespace>
+    <DefaultItemExcludes>$(DefaultItemExcludes);*.trx</DefaultItemExcludes>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <MSBuildWarningsAsMessages>$(MSBuildWarningsAsMessages);$(NoWarn)</MSBuildWarningsAsMessages>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\xunit.runner.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\EFCore.MySql\EFCore.MySql.csproj" />
+    <ProjectReference Include="..\EFCore.MySql.FunctionalTests\EFCore.MySql.FunctionalTests.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.CodeAnalysis.CSharp" Version="$(MicrosoftCodeAnalysisCSharpVersion)" />
+    <PackageReference Include="Microsoft.Extensions.DependencyModel" Version="$(MicrosoftExtensionsDependencyModelVersion)" />
+    <PackageReference Include="Moq" Version="$(MoqVersion)" />
+    <PackageReference Include="Newtonsoft.Json" Version="$(NewtonsoftJsonVersion)" />
+  </ItemGroup>
+
+  <ItemGroup Condition="'$(LocalEFCoreRepository)' == ''">
+      <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="$(MicrosoftEntityFrameworkCoreDesignVersion)" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="$(MicrosoftEntityFrameworkCoreRelationalVersion)" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.Relational.Specification.Tests" Version="$(MicrosoftEntityFrameworkCoreRelationalSpecificationTestsVersion)" />
+  </ItemGroup>
+
+  <ItemGroup Condition="'$(LocalMySqlConnectorRepository)' == ''">
+    <PackageReference Include="MySqlConnector" Version="$(MySqlConnectorVersion)" />
+  </ItemGroup>
+
+  <ItemGroup Condition="'$(LocalEFCoreRepository)' != ''">
+    <Reference Include="Microsoft.EntityFrameworkCore">
+      <HintPath>$(LocalEFCoreRepository)\artifacts\bin\EFCore.Relational.Tests\Debug\$(LegacyTargetFramework)\Microsoft.EntityFrameworkCore.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.EntityFrameworkCore.Abstractions">
+      <HintPath>$(LocalEFCoreRepository)\artifacts\bin\EFCore.Relational.Tests\Debug\$(LegacyTargetFramework)\Microsoft.EntityFrameworkCore.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.EntityFrameworkCore.Analyzers">
+      <HintPath>$(LocalEFCoreRepository)\artifacts\bin\EFCore.Relational.Tests\Debug\$(LegacyTargetFramework)\Microsoft.EntityFrameworkCore.Analyzers.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.EntityFrameworkCore.Design">
+      <HintPath>$(LocalEFCoreRepository)\artifacts\bin\EFCore.Design.Tests\Debug\$(LegacyTargetFramework)\Microsoft.EntityFrameworkCore.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.EntityFrameworkCore.Proxies">
+      <HintPath>$(LocalEFCoreRepository)\artifacts\bin\EFCore.Relational.Tests\Debug\$(LegacyTargetFramework)\Microsoft.EntityFrameworkCore.Proxies.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.EntityFrameworkCore.Relational">
+      <HintPath>$(LocalEFCoreRepository)\artifacts\bin\EFCore.Relational.Tests\Debug\$(LegacyTargetFramework)\Microsoft.EntityFrameworkCore.Relational.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.EntityFrameworkCore.Relational.Specification.Tests">
+      <HintPath>$(LocalEFCoreRepository)\artifacts\bin\EFCore.Relational.Tests\Debug\$(LegacyTargetFramework)\Microsoft.EntityFrameworkCore.Relational.Specification.Tests.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.EntityFrameworkCore.Specification.Tests">
+      <HintPath>$(LocalEFCoreRepository)\artifacts\bin\EFCore.Relational.Tests\Debug\$(LegacyTargetFramework)\Microsoft.EntityFrameworkCore.Specification.Tests.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup Condition="'$(LocalMySqlConnectorRepository)' != ''">
+    <Reference Include="MySqlConnector">
+      <HintPath>$(LocalMySqlConnectorRepository)\src\MySqlConnector\bin\Debug\$(TargetFramework)\MySqlConnector.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
