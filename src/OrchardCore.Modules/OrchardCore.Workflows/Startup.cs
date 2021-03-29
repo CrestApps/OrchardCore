@@ -14,6 +14,7 @@ using OrchardCore.Modules;
 using OrchardCore.Mvc.Core.Utilities;
 using OrchardCore.Navigation;
 using OrchardCore.Recipes;
+using OrchardCore.ResourceManagement;
 using OrchardCore.Security.Permissions;
 using OrchardCore.Workflows.Activities;
 using OrchardCore.Workflows.Controllers;
@@ -86,9 +87,8 @@ namespace OrchardCore.Workflows
             services.AddActivity<ScriptTask, ScriptTaskDisplayDriver>();
             services.AddActivity<LogTask, LogTaskDisplayDriver>();
 
-            services.AddActivity<CommitTransactionTask, CommitTransactionTaskDisplayDriver>();
-
             services.AddRecipeExecutionStep<WorkflowTypeStep>();
+            services.AddTransient<IConfigureOptions<ResourceManagementOptions>, ResourceManagementOptionsConfiguration>();
         }
 
         public override void Configure(IApplicationBuilder app, IEndpointRouteBuilder routes, IServiceProvider serviceProvider)
@@ -134,6 +134,15 @@ namespace OrchardCore.Workflows
             services.AddTransient<IDeploymentSource, AllWorkflowTypeDeploymentSource>();
             services.AddSingleton<IDeploymentStepFactory>(new DeploymentStepFactory<AllWorkflowTypeDeploymentStep>());
             services.AddScoped<IDisplayDriver<DeploymentStep>, AllWorkflowTypeDeploymentStepDriver>();
+        }
+    }
+
+    [Feature("OrchardCore.Workflows.Session")]
+    public class SessionStartup : StartupBase
+    {
+        public override void ConfigureServices(IServiceCollection services)
+        {
+            services.AddActivity<CommitTransactionTask, CommitTransactionTaskDisplayDriver>();
         }
     }
 }
